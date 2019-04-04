@@ -1,0 +1,42 @@
+﻿@page
+@model MyApp.Namespace.ClientRestaurantModel
+@{
+}
+<table id="restaurants" class="table" ></table>
+@section Scripts{
+    <environment includes ="Development">
+<script src="~/lib/datatables.net/js/jquery.dataTables.js"></script>
+<script src="~/lib/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+ <link rel="stylesheet" type="text/css" href="~/lib/datatables.net-bs/css/dataTables.bootstrap.css"/>
+    </environment>
+    <environment excludes ="Development">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.18/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.18/datatables.min.js"></script>
+    </environment>
+    <script>
+        $(function()
+        {
+            var cuisines=["Unknown","Maxican","North Indian","Italian"]
+$.ajax("../../api/rest/",{
+    method:"get"})
+    .then(function(response)
+    {
+      $("#restaurants").dataTable(
+          {
+              data:response,
+              columns:[{
+"data":"name"},{
+"data":"address"
+              },{
+"data":"cuisine", "render": function(data){
+    return cuisines[data];
+}
+              }
+              ]
+          }
+      );
+
+    })
+        });
+    </script>
+}

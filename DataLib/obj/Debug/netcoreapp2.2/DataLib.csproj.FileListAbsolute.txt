@@ -1,0 +1,14 @@
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.csprojAssemblyReference.cache
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.csproj.CoreCompileInputs.cache
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.AssemblyInfoInputs.cache
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.AssemblyInfo.cs
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\DataLib.deps.json
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\DataLib.runtimeconfig.json
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\DataLib.runtimeconfig.dev.json
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\DataLib.dll
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\DataLib.pdb
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\MyLib.dll
+D:\dotnet\coreapp\datalib\bin\Debug\netcoreapp2.2\MyLib.pdb
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.csproj.CopyComplete
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.dll
+D:\dotnet\coreapp\datalib\obj\Debug\netcoreapp2.2\DataLib.pdb

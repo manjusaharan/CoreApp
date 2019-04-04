@@ -1,0 +1,14 @@
+﻿@page "{restaurantId:int}"
+@model detailsModel
+@{
+}
+
+<h2>@Model.Restaurant.Name</h2>
+<div>
+    <h3>@Model.Restaurant.Cuisine</h3>
+</div>
+@if(Model.Message!=null)
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
+<a asp-page="./List">All Restaurants</a>
